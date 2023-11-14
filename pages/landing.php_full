@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html dir="ltr" class=" js" lang="ru">
+    <head>
+        <title><?= $variable['title']; ?> | SilkRoadIT</title>
+        <?php require_once('./partial/head.php'); ?>
+    </head>
+
+    <body class="i18n-ru" data-screen="lg">
+        <div class="page-wrapper">
+
+            <?php require_once('./partial/header.php'); ?>
+
+            <main>
+                <div id="container">
+
+                    <div class="front-page-slider-wrapper">
+                        <div class="owl-carousel  owl-theme  front-page-slider">
+
+                            <div class="item" data-img="2018__default/preview.jpg" data-text="Хостинг бизнес-класса">
+                                <div class="slider  slider--default  slider--ru">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12  col-sm-8  col-md-7  col-lg-8">
+                                                <h1 class="slider__title">
+                                                    Хостинг<br>бизнес-класса </h1>
+                                                <div class="slider__text">
+                                                    Занимайтесь бизнесом,
+                                                    <nobr>а управление</nobr>
+                                                    <br>
+                                                    хостингом
+                                                    <nobr>мы возьмем</nobr>
+                                                    на себя
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="services">
+                        <div class="front-services">
+                            <div class="container">
+
+                                <div class="front-services__item">
+                                    <div class="front-services__item-header">Виртуальный<br> сервер</div>
+                                    <div class="front-services__item-logo-wrapper">
+                                        <img class="front-services__item-logo" src="/ISPmaster_files/vds_icon.png">
+                                    </div>
+                                    <div class="front-services__item-price">
+                                        от 57 000 ╤ <span class="front-services__item-price-period">/мес</span>
+                                    </div>
+                                    <div class="front-services__item-desc">
+                                        подходит для сайтов<br>
+                                        с высокой нагрузкой
+                                    </div>
+                                    <a href="/get" class="front-services__item-link">Подробнее</a>
+                                </div>
+
+                                <br class="front-services__row-separator">
+
+                                <div class="front-services__item">
+                                    <div class="front-services__item-header">Облачный<br> сервер</div>
+                                    <div class="front-services__item-logo-wrapper">
+                                        <img class="front-services__item-logo" src="/ISPmaster_files/cloud_icon.png">
+                                    </div>
+                                    <div class="front-services__item-price">
+                                        от 110 000 ╤ <span class="front-services__item-price-period">/мес</span>
+                                    </div>
+                                    <div class="front-services__item-desc">отказоустойчивое<br> решение</div>
+                                    <a href="/get" class="front-services__item-link">Подробнее</a>
+                                </div>
+
+                                <div class="front-services__item  front-services__item--dedicated">
+                                    <div class="front-services__item-header">Выделенный<br> сервер</div>
+                                    <div class="front-services__item-logo-wrapper">
+                                        <img class="front-services__item-logo" src="/ISPmaster_files/dedic_icon.png">
+                                    </div>
+                                    <div class="front-services__item-price">
+                                        от 250 000 ╤ <span class="front-services__item-price-period">/мес</span>
+                                    </div>
+                                    <div class="front-services__item-desc">для проектов любых<br> размеров</div>
+                                    <a href="/get" class="front-services__item-link">Подробнее</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="front-backup-promo">
+                                <strong>Защитите свои данные от потери</strong>
+                                — подключите резервное копирование. Диск для бэкапов (резервного
+                                копирования) хранит резервную копию данных вашего сервера.
+                                Это поможет сохранить бизнес при потере данных с сервера.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="front-benefits">
+                        <div class="container">
+                            <h2 class="front-benefits__title">В подарок с каждой услугой хостинга</h2>
+
+                            <div class="front-benefits__wrapper">
+                                <div class="front-benefits__item">
+                                    <div class="front-benefits__iconnew front-benefits__iconnew_ddos"></div>
+                                    <div class="front-benefits__text">Защита от DDoS-атак</div>
+                                </div>
+                                <div class="front-benefits__item">
+                                    <div class="front-benefits__iconnew front-benefits__iconnew_support"></div>
+                                    <div class="front-benefits__text">Администрирование</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="front-panel" id="front-panel">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12  col-md-6  order-md-1  text-center">
+                                    <img class="front-panel__notebook img-responsive" alt="Notebook" src="/ISPmaster_files/ispmanager-notebook_2_0.png">
+                                </div>
+                                <div class="col-12  col-md-6">
+                                    <h4 class="front-panel__small-title">Панель управления ISPmanager</h4>
+                                    <p class="front-panel__text">Через панель легко управлять хостингом даже начинающему
+                                        пользователю.</p>
+                                    <h4 class="front-panel__small-title">Управление хостингом без знаний командной строки</h4>
+
+                                    <p class="front-panel__text">Все действия доступны из окна браузера:
+                                        настройка пользователей, подключение доменов, настройка почты и
+                                        резервных копий, управление файлами и пользователями FTP и др.
+                                    </p>
+                                    <h4 class="front-panel__small-title">Установка CMS из панели в 3 клика</h4>
+
+                                    <p class="front-panel__text">Установите нужную вам CMS для создания
+                                        сайта: Wordpress, Joomla или Drupal прямо из панели и приступайте к
+                                        созданию сайта.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="front-ddos" id="front-ddos">
+                        <div class="container">
+                            <h2 class="front-admin__title">Защита от DDoS-атак</h2>
+
+                            <p class="front-admin__description">
+                                Фильтруем входящий трафик, чтобы на сайт попадали только реальные клиенты. Вы не заметите атаки:
+                                хакеры не получат
+                                доступ к ресурсам сервера и не спровоцируют отказ системы. Сайт продолжит работать без
+                                изменений.
+                            </p>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-12">
+                                    <p class="front-admin__body">
+                                        Подключим канал с защитой от DDoS ёмкостью от 1 Мбит/сек на виртуальный сервер. Для
+                                        выделенного сервера — от 5
+                                        Мбит/сек за 1250 руб/мес. Защита подавляет атаки на 2, 3, 4 и 7-м уровнях по модели OSI.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="front-ddos__img"></div>
+                        </div>
+                    </div>
+
+                    <div class="front-admin" id="front-admin">
+                        <div class="container">
+                            <h2 class="front-admin__title">Администрирование хостинга включено в пакет с сервером</h2>
+
+                            <p class="front-admin__description">Наши сотрудники возьмут на себя
+                                работы по обслуживанию хостинга. Настроим сервер для начала работы,
+                                установим нужное программное обеспечение, если это возможно. Не переживайте, если вы не
+                                разбираетесь в администрировании хостинга, мы согласуем необходимые работы и выполним их за
+                                вас.</p>
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="front-admin__item">
+                                        <div class="front-admin__header">Настроим сервер</div>
+                                        <p class="front-admin__body">Подготовим сервер для начала работы, настроим
+                                            веб-окружение.</p>
+                                    </div>
+                                    <div class="front-admin__item">
+                                        <div class="front-admin__header">Перенесем и восстановим нужные
+                                            данные
+                                        </div>
+                                        <p class="front-admin__body">Перенесем ваши данные от другого провайдера,
+                                            при необходимости развернем вашу резервную копию данных сервера.</p>
+                                    </div>
+                                    <div class="front-admin__item">
+                                        <div class="front-admin__header">Выполним другие работы по
+                                            администрированию
+                                        </div>
+                                        <p class="front-admin__body">Выясним почему не работает ваш сайт, сразу же напишем
+                                            причину или починим сами.
+                                            Расскажем как сделать так, чтобы таких ошибок больше не возникало.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="front-admin__item">
+                                        <div class="front-admin__header">Установим ПО</div>
+                                        <p class="front-admin__body">Если вам некогда изучать инструкции по установке, напишите
+                                            в поддержку: мы
+                                            согласуем время работ, установим операционную систему, CMS и настроим
+                                            веб-сервер.</p>
+                                    </div>
+                                    <div class="front-admin__item">
+                                        <div class="front-admin__header">Проследим за безопасностью</div>
+                                        <p class="front-admin__body">Мы поддерживаем желание клиентов обезопасить свои данные и
+                                            защитить сайт от
+                                            злоумышленников, поэтому помогаем с настройкой защиты от DDoS и с переходом на
+                                            протокол https для шифрования
+                                            данных.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="front-admin__benefit front-admin__benefit_speed">
+                                        На <span class="open__bold">70% запросов</span> отвечаем в течение
+                                        <span class="open__bold">15 минут</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="front-admin__benefit front-admin__benefit_day">
+                                        Отвечаем на запросы круглосуточно без выходных
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="front-dc" style="background-size: cover;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <h2 class="front-dc__title">
+                                        Предоставляем серверы <span class="break-imitation">в трёх дата-центрах в Москве и Германии</span>
+                                    </h2>
+
+                                    <p class="front-dc__text">
+                                        <span class="open__bold">Виртуальные серверы</span> размещены в дата-центрах WebDC и
+                                        IXcellerate в Москве и
+                                        имеют стабильный низкий пинг по всей России.
+                                    </p>
+
+                                    <p class="front-dc__text">
+                                        <span class="open__bold">Выделенные серверы</span> доступны для аренды на площадках
+                                        WebDC и IXcellerate в
+                                        Москве и дата-центре Hetzner в Нюрнберге, Германия. Каждый дата-центр имеет хорошую
+                                        связность благодаря
+                                        подключению нескольких каналов связи и точек обмена трафиком. Сеть построена таким
+                                        образом, что отключение
+                                        одного из каналов никак не скажется на скорости передачи/получения данных:
+                                        дополнительные каналы возьмут
+                                        нагрузку на себя.
+                                    </p>
+
+                                    <p class="front-dc__text">
+                                        Серверы работают на базе процессоров <span class="open__bold">Intel</span>,
+                                        <span class="open__bold">AMD</span>, дисков <span class="open__bold">Samsung</span> и
+                                        <span class="open__bold">Hitachi</span>
+                                        серверной серии и оперативной памяти поколений <span class="open__bold">DDR4</span>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="front-choose">
+                        <div class="container">
+                            <div class="front-choose__buttonWr">
+                                <a href="/get" class="front-choose__button front-choose__button_violet">Выбрать
+                                    хостинг</a>
+                            </div>
+
+                            <h2 class="front-choose__title">Выбор услуг веб-хостинга</h2>
+
+                            <p class="front-choose__text">Наша компания предлагает 3 вида
+                                услуг веб-хостинга: виртуальный
+                                сервер VPS, отказоустойчивый облачный сервер и выделенный сервер.
+                            </p>
+
+                            <article class="front-choose__article">
+                                <div class="front-choose__icon front-choose__icon_dedicated"></div>
+                                <div class="front-choose__desc">
+                                    <div class="front-choose__header">Создать сайт любого типа и сложности</div>
+                                    <div class="front-choose__price">от 150 000 ╤ / мес.
+                                        <a href="/get" class="front-choose__button front-choose__button_blue">Подробнее</a>
+                                    </div>
+                                </div>
+
+                                <p class="front-choose__text">
+                                    Есть только один шанс произвести хорошее впечатление на пользователя. Мы принимаем решение нравится нам сайт или нет всего за 10 секунд. Поэтому удобство и качество ресурса напрямую влияют на количество онлайн-продаж. Важно поддерживать внимание аудитории, поэтому мы тщательно продумываем структуру сайта, дизайн и контент. В результате сайт способен значительно увеличить поток клиентов.
+                                </p>
+                                <p class="front-choose__text">
+                                    Предоставляем полный цикл услуг по созданию сайтов: проектирование, разработка мобильного и адаптивного дизайна, интеграция с 1С, Битрикс, внедрение различных внешних систем.
+                                </p>
+                                <p class="front-choose__text">
+                                    Что входит в комплексный подход:
+                                </p>
+
+                                <ul>
+                                    <li><p class="front-choose__text">Проект, который решит поставленные бизнес-задачи с учетом особенностей ниши и пользовательского опыта.</p></li>
+                                    <li><p class="front-choose__text">Адаптивный дизайн. Мы создаем по-настоящему уникальные дизайны на мировом уровне, а не на уровне других сайтов в топе выдачи.</p></li>
+                                    <li><p class="front-choose__text">Расширенные возможности: стабильная работа при большом количестве информации, возможность подключения дополнительных сервисов и передачи данных между разными системами.</p></li>
+                                    <li><p class="front-choose__text">Продвижение сайта: увеличение конверсии, грамотная оптимизация под поисковые системы Яндекс и Google, генерация лидов.</p></li>
+                                    <li><p class="front-choose__text">Функционал любой сложности</p></li>
+                                    <li><p class="front-choose__text">Все наши сайты адаптивные, со встроенным алгоритмом распознающим устройство и подстраивающим под него необходимый дизайн в точно рассчитанной конфигурации</p></li>
+                                </ul>
+
+                                <p class="front-choose__text">
+                                    Сегодня сайт в немалой степени определяет статус компании, наличие собственного многофункционального сайта стало необходимостью для всех.
+                                </p>
+                                <p class="front-choose__text">
+                                    Мы подберем правильные решения для вас и пользователей.
+                                </p>
+                            </article>
+
+                            <article class="front-choose__article">
+                                <div class="front-choose__icon front-choose__icon_dedicated"></div>
+                                <div class="front-choose__desc">
+                                    <div class="front-choose__header">Монтаж СКС</div>
+                                    <div class="front-choose__price">от 230 000 ╤ / мес.
+                                        <a href="/get" class="front-choose__button front-choose__button_blue">Подробнее</a>
+                                    </div>
+                                </div>
+
+                                <p class="front-choose__text">
+                                    Наша компания на профессиональном уровне оказывает все услуги, которые предполагает монтаж СКС. Сотрудничество организовано по такой схеме: после оформления заказа создается рабочий проект, который утверждает заказчик, далее начинается собственно установка сети. Все работы выполняют специалисты высокого класса, которые постоянно повышают свою квалификацию в такой сфере, как монтаж компьютерных сетей и проходят соответствующее обучение.
+                                </p>
+                                <p class="front-choose__text">
+                                    От того, насколько профессионально произведен монтаж ЛВС, напрямую зависит, как стабильно будет работать Ваше предприятие. Обращаясь к нам, Вы получаете гарантию качественного выполнения работ. Как правило, в такой сфере, как прокладка сети, приоритетными для заказчика являются три момента: качество, срок и цена. У нас все эти 3 фактора находятся в оптимальном соотношении.
+                                </p>
+                                <p class="front-choose__text">
+                                    Прокладка сети специалистами компании выполняется качественно благодаря профессионально разработанному проекту и четкому следованию ему в процессе установки. Мы имеем все необходимые лицензии, которые подразумевает работа в такой сфере услуг, как прокладка компьютерных сетей. При монтаже мы всегда руководствуемся существующими стандартами и нормативами, а весь процесс работы тщательной отслеживается системой контроля качества.
+                                </p>
+                            </article>
+
+                            <article class="front-choose__article">
+                                <div class="front-choose__icon front-choose__icon_vps"></div>
+                                <div class="front-choose__desc">
+                                    <div class="front-choose__header">Виртуальный сервер VPS</div>
+                                    <div class="front-choose__price">от 57 000 ╤ /
+                                        мес.
+                                        <a href="/get" class="front-choose__button front-choose__button_blue">Подробнее</a>
+                                    </div>
+                                </div>
+                                <p class="front-choose__text">Виртуальный сервер VPS — услуга по предоставлению выделенной части
+                                    ресурсов сервера.
+                                    На одном физическом сервере размещается несколько виртуальных выделенных серверов, ресурсы
+                                    которых четко
+                                    ограниченны в рамках выбранной конфигурации. Максимальные технические характеристики
+                                    виртуального сервера: 8
+                                    ядер процессора Intel Xeon с частотой в 2.4 ГГц, 32 Гб оперативной памяти и 500 Гб HDD-диска
+                                    или 200 Гб SSD.
+                                </p>
+
+                                <p class="front-choose__text">Виртуальный сервер подойдет малому и среднему интернет-бизнесу для
+                                    веб-проектов,
+                                    работы серверного ПО: почтового сервера, сервера баз данных, финансового ПО.
+                                </p>
+
+                                <p class="front-choose__text">Максимальная конфигурация сервера позволит запустить на нем
+                                    несколько крупных
+                                    веб-сайтов или интернет-магазинов, CRM-систему, ресурсоемкий почтовый сервер с большой
+                                    нагрузкой трафика, любое
+                                    финансовое или бухгалтерское ПО, среды разработки и бизнес-проектирования.</p>
+                            </article>
+
+                            <article class="front-choose__article">
+                                <div class="front-choose__icon front-choose__icon_cloud"></div>
+                                <div class="front-choose__desc">
+                                    <div class="front-choose__header">Отказоустойчивый облачный сервер</div>
+                                    <div class="front-choose__price">от 110 000 ╤ / мес.
+                                        <a href="/get" class="front-choose__button front-choose__button_blue">Подробнее</a>
+                                    </div>
+                                </div>
+                                <p class="front-choose__text">Облачный сервер организован как и виртуальный выделенный сервер: в
+                                    распоряжении
+                                    пользователя выбранная часть ресурсов физического сервера. Отказоустойчивость облачного
+                                    сервера обеспечивается
+                                    за счет дублирования данных сервера на другом вычислительном узле. Оба узла связаны между
+                                    собой высокоскоростной
+                                    сетью с пропускной способностью 56 Гбит/с. В случае неполадок дублирующий сервер моментально
+                                    запускается и
+                                    работа сайта не прекращается — пользователи не замечают технических проблем. Серверы
+                                    работают на SSD-дисках,
+                                    сайты на них открываются быстрее, чем на обычных HDD.</p>
+
+                                <p class="front-choose__text">Максимальная конфигурация облачного сервера: 16 ядер процессора
+                                    Intel Xeon E5-2630 с
+                                    частотой в 3.2 ГГц, оперативная память в 64 Гб и SSD-диск на 1000 Гб. Этого достаточно для
+                                    работы крупных
+                                    интернет-магазинов с непрерывной круглосуточной нагрузкой, корпоративных порталов
+                                    международных компаний,
+                                    почтовых серверов, серверов баз данных, CRM-систем и др.</p>
+                            </article>
+
+                            <article class="front-choose__article">
+                                <div class="front-choose__icon front-choose__icon_dedicated"></div>
+                                <div class="front-choose__desc">
+                                    <div class="front-choose__header">Выделенный сервер</div>
+                                    <div class="front-choose__price">от 250 000 ╤ / мес.
+                                        <a href="/get" class="front-choose__button front-choose__button_blue">Подробнее</a>
+                                    </div>
+                                </div>
+                                <p class="front-choose__text">Выделенный сервер — услуга аренды отдельного физического сервера в
+                                    нашем
+                                    дата-центре,
+                                    когда пользователю принадлежат все ресурсы сервера.</p>
+
+                                <p class="front-choose__text">Выделенный сервер подходит для разных задач: от размещения
+                                    небольшого
+                                    интернет-магазина до запуска сложных высоконагруженных систем. Отсутствие «соседей» на
+                                    сервере дает полную
+                                    свободу действий — только вы и ваши пользователи влияют на нагрузку сервера.</p>
+
+                                <p class="front-choose__text">
+                                    Для организации хостинга выделенных серверов мы используем новое серверное оборудование
+                                    и программное обеспечение от ведущих IT-компаний мира:
+                                    <span class="open__bold">Intel</span>, <span class="open__bold">AMD</span>,
+                                    <span class="open__bold">Microsoft</span>, <span class="open__bold">Juniper Networks</span>,
+                                    <span class="open__bold">ISPsystem</span>.
+                                </p>
+
+                                <p class="front-choose__text">Мы не боимся сложных задач и подберём вам оптимальную конфигурацию
+                                    под любой
+                                    проект:</p>
+
+                                <ul>
+                                    <li><p class="front-choose__text">Для запускающихся предприятий и проектов с низким бюджетом
+                                        мы предлагаем
+                                        серверы
+                                        на базе <span class="open__bold">Intel Core i7</span> предыдущих поколений
+                                        и <span class="open__bold">Intel Xeon E3</span>.
+                                        Такие конфигурации имеют доступную стоимость, при этом обеспечивая
+                                        достаточный для развивающихся проектов уровень производительности.</p>
+                                    </li>
+                                    <li><p class="front-choose__text">Для проектов малого и среднего бизнеса подойдут выделенные
+                                        серверы
+                                        на процессорах <span class="open__bold">Xeon E5</span> или <span class="open__bold">Xeon E</span>.
+                                        Они отличаются хорошей производительностью и имеют возможность увеличения ресурсов.</p>
+                                    </li>
+                                    <li><p class="front-choose__text">Для проектов с высокими требованиями к мощности процессора
+                                        подойдут
+                                        конфигурации на базе процессоров Intel
+                                        <span class="open__bold">Core i7 и i9 9-го и 10-го поколений</span>, <span class="open__bold">AMD Ryzen
+                        7</span> и <span class="open__bold">9</span>. Благодаря обновлённой
+                                        платформе серверы на базе этих
+                                        процессоров имеют широкие возможности масштабирования ресурсов — до 128 Гб оперативной
+                                        памяти и 6 дисковых
+                                        накопителей.</p>
+                                    </li>
+                                    <li><p class="front-choose__text">Нагрузку корпоративных проектов любого размера отлично
+                                        выдержат серверы на
+                                        базе двойных процессоров Intel
+                                        <span class="open__bold">Xeon 2xE5</span> и
+                                        <span class="open__bold">Intel Xeon Scalable</span>.</p>
+                                    </li>
+                                </ul>
+                            </article>
+
+                            <div class="front-choose__buttonWr front-choose__buttonWr_last">
+                                <a href="/get" class="front-choose__button front-choose__button_violet">
+                                    Выбрать хостинг
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+            <?php require_once('./partial/footer.php'); ?>
+
+        </div>
+
+    </body>
+</html>
